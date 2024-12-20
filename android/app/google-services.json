@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663498878910",
+    "project_id": "minimalchat-59c8a",
+    "storage_bucket": "minimalchat-59c8a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663498878910:android:30afaf6f9cd8662aeb13ef",
+        "android_client_info": {
+          "package_name": "com.geekybug.minimal_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ-0Fwee9hqlmPb8vAh0bTWw17u3ro0DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
