@@ -21,14 +21,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: AppBar(
         title: const Text('Home Page'),
-        actions: [
-          IconButton(
-            onPressed: () => logout(context),
-            icon: const Icon(Icons.logout),
-          ),
-        ],
+        backgroundColor: Colors.transparent,
+        foregroundColor: Colors.grey,
+        elevation: 0,
+        // actions: [
+        //   IconButton(
+        //     onPressed: () => logout(context),
+        //     icon: const Icon(Icons.logout),
+        //   ),
+        // ],
       ),
       drawer: const MyDrawer(),
       body: _buildUserList(),
